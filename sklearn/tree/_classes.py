@@ -122,6 +122,8 @@ class BaseDecisionTree(MultiOutputMixin, BaseEstimator, metaclass=ABCMeta):
         self.class_weight = class_weight
         self.ccp_alpha = ccp_alpha
 
+        self.latest_predictions: np.array
+
     def get_depth(self):
         """Return the depth of the decision tree.
 
@@ -474,9 +476,11 @@ class BaseDecisionTree(MultiOutputMixin, BaseEstimator, metaclass=ABCMeta):
         # Regression
         else:
             if self.n_outputs_ == 1:
+                self.latest_predictions = np.copy(proba)
                 return proba[:, 0]
 
             else:
+                #TODO VERIFY
                 return proba[:, :, 0]
 
     def apply(self, X, check_input=True):
@@ -955,6 +959,8 @@ class DecisionTreeClassifier(ClassifierMixin, BaseDecisionTree):
             normalizer = proba.sum(axis=1)[:, np.newaxis]
             normalizer[normalizer == 0.0] = 1.0
             proba /= normalizer
+            
+            self.latest_predictions = np.copy(proba)
 
             return proba
 
