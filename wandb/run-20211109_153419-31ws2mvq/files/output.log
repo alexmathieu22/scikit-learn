@@ -1,0 +1,44 @@
+
+Training Random Forest classifiers...
+Number of RFs trained: 1
+Number of RFs trained: 2
+Number of RFs trained: 3
+Number of RFs trained: 4
+Traceback (most recent call last):
+  File "D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\FoF.py", line 61, in <module>
+    clf_rf.fit(X_train, y_train)
+  File "D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\sklearn\ensemble\_forest.py", line 442, in fit
+    trees = Parallel(
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\joblib\parallel.py", line 1054, in __call__
+    self.retrieve()
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\joblib\parallel.py", line 933, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\multiprocessing\pool.py", line 771, in get
+    raise self._value
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\joblib\_parallel_backends.py", line 595, in __call__
+    return self.func(*args, **kwargs)
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\joblib\parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\joblib\parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\sklearn\utils\fixes.py", line 211, in __call__
+    return self.function(*args, **kwargs)
+  File "D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\sklearn\ensemble\_forest.py", line 185, in _parallel_build_trees
+    tree.fit(X, y, sample_weight=curr_sample_weight, check_input=False)
+  File "D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\sklearn\tree\_classes.py", line 921, in fit
+    super().fit(
+  File "D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\sklearn\tree\_classes.py", line 410, in fit
+    builder.build(self.tree_, X, y, sample_weight)
+  File "sklearn\tree\_tree.pyx", line 129, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+    cpdef build(self, Tree tree, object X, np.ndarray y,
+  File "sklearn\tree\_tree.pyx", line 225, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+    node_id = tree._add_node(parent, is_left, is_leaf, split.feature,
+  File "sklearn\tree\_tree.pyx", line 725, in sklearn.tree._tree.Tree._add_node
+    if self._resize_c() != 0:
+  File "sklearn\tree\_tree.pyx", line 697, in sklearn.tree._tree.Tree._resize_c
+    safe_realloc(&self.value, capacity * self.value_stride)
+  File "sklearn\tree\_utils.pyx", line 37, in sklearn.tree._utils.safe_realloc
+    raise MemoryError("could not allocate %d bytes" % nbytes)
+MemoryError: could not allocate 222560256 bytes

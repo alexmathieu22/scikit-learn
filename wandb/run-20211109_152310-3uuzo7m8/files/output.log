@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\FoF.py", line 58, in <module>
+    start = time.clock()
+AttributeError: module 'time' has no attribute 'clock'

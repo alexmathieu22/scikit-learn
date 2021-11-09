@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\FoF.py", line 47, in <module>
+    X, y, features, _ = DATASET_MAPPING["kaggle_houses"](scaler=None)
+  File "D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\utils_v3.py", line 318, in get_data_houses
+    df = pd.read_csv(
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\pandas\io\parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\pandas\io\parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\pandas\io\parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\pandas\io\parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\pandas\io\parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\pandas\io\parsers.py", line 1362, in _open_handles
+    self.handles = get_handle(
+  File "C:\Users\Alex\anaconda3\envs\XUncertainty\lib\site-packages\pandas\io\common.py", line 642, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Users\\Alex\\Fichiers\\Programmation\\Recherche - Gabriel\\scikit-learn\\datasets\\kaggle_houses\\train.csv'

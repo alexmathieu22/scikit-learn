@@ -1,0 +1,19 @@
+
+Training Random Forest regressors...
+Number of RFs trained: 1
+Number of RFs trained: 2
+Number of RFs trained: 3
+Number of RFs trained: 4
+Number of RFs trained: 5
+Number of RFs trained: 6
+Number of RFs trained: 7
+Number of RFs trained: 8
+Number of RFs trained: 9
+Number of RFs trained: 10
+Training Forest of Forests...
+Testing Random Forest regressors...
+Testing Forest of Forests...
+Traceback (most recent call last):
+  File "D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\FoF.py", line 112, in <module>
+    y_pred = np.zeros(clf_fof.estimators[0].shape)
+AttributeError: 'RandomForestRegressor' object has no attribute 'estimators'

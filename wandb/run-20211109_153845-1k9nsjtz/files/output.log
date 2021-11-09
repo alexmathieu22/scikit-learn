@@ -1,0 +1,6 @@
+
+Training Random Forest regressors...
+Traceback (most recent call last):
+  File "D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\FoF.py", line 60, in <module>
+    clf_rf = RandomForestRegressor(n_jobs=2)
+NameError: name 'RandomForestRegressor' is not defined

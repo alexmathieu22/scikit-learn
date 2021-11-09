@@ -1,0 +1,27 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.9.5",
+    "heartbeatAt": "2021-11-09T20:17:08.624485",
+    "startedAt": "2021-11-09T20:17:06.845695",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1060 6GB",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--wandb=True",
+        "--name=bike"
+    ],
+    "state": "running",
+    "program": "D:\\Users\\Alex\\Fichiers\\Programmation\\Recherche - Gabriel\\scikit-learn\\FoF.py",
+    "codePath": "FoF.py",
+    "git": {
+        "remote": "https://github.com/alexmathieu22/scikit-learn.git",
+        "commit": "1e66acbed10e6d0d258cfe6d06a6713cb4d64491"
+    },
+    "email": "alexandre.mathieu.7@ulaval.ca",
+    "root": "D:/Users/Alex/Fichiers/Programmation/Recherche - Gabriel/scikit-learn",
+    "host": "DESKTOP-TCDG9JE",
+    "username": "Alex",
+    "executable": "C:\\Users\\Alex\\anaconda3\\envs\\XUncertainty\\python.exe"
+}

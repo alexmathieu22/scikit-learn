@@ -1,0 +1,141 @@
+2021-11-09 15:21:35,557 INFO    MainThread:4020 [internal.py:wandb_internal():86] W&B internal server running at pid: 4020, started at: 2021-11-09 15:21:35.551129
+2021-11-09 15:21:35,559 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: check_version
+2021-11-09 15:21:35,560 INFO    WriterThread:4020 [datastore.py:open_for_write():77] open: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\run-2saxvkob.wandb
+2021-11-09 15:21:35,566 DEBUG   SenderThread:4020 [sender.py:send():182] send: header
+2021-11-09 15:21:35,566 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: check_version
+2021-11-09 15:21:35,678 DEBUG   SenderThread:4020 [sender.py:send():182] send: run
+2021-11-09 15:21:35,953 INFO    SenderThread:4020 [dir_watcher.py:__init__():169] watching files in: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files
+2021-11-09 15:21:35,953 INFO    SenderThread:4020 [sender.py:_start_run_threads():740] run started: 2saxvkob with start time 1636489294
+2021-11-09 15:21:35,953 DEBUG   SenderThread:4020 [sender.py:send():182] send: summary
+2021-11-09 15:21:35,954 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: run_start
+2021-11-09 15:21:35,954 INFO    SenderThread:4020 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-09 15:21:35,974 DEBUG   HandlerThread:4020 [meta.py:__init__():40] meta init
+2021-11-09 15:21:35,975 DEBUG   HandlerThread:4020 [meta.py:__init__():54] meta init done
+2021-11-09 15:21:35,975 DEBUG   HandlerThread:4020 [meta.py:probe():211] probe
+2021-11-09 15:21:35,988 DEBUG   HandlerThread:4020 [meta.py:_setup_git():201] setup git
+2021-11-09 15:21:36,104 DEBUG   HandlerThread:4020 [meta.py:_setup_git():208] setup git done
+2021-11-09 15:21:36,104 DEBUG   HandlerThread:4020 [meta.py:_save_pip():58] save pip
+2021-11-09 15:21:36,105 DEBUG   HandlerThread:4020 [meta.py:_save_pip():72] save pip done
+2021-11-09 15:21:36,105 DEBUG   HandlerThread:4020 [meta.py:_save_conda():79] save conda
+2021-11-09 15:21:36,956 INFO    Thread-12 :4020 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\requirements.txt
+2021-11-09 15:21:36,956 INFO    Thread-12 :4020 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\conda-environment.yaml
+2021-11-09 15:21:36,957 INFO    Thread-12 :4020 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\wandb-summary.json
+2021-11-09 15:21:40,204 DEBUG   HandlerThread:4020 [meta.py:_save_conda():87] save conda done
+2021-11-09 15:21:40,204 DEBUG   HandlerThread:4020 [meta.py:probe():249] probe done
+2021-11-09 15:21:40,210 DEBUG   SenderThread:4020 [sender.py:send():182] send: files
+2021-11-09 15:21:40,210 INFO    SenderThread:4020 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-11-09 15:21:40,218 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-09 15:21:40,218 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: stop_status
+2021-11-09 15:21:40,361 DEBUG   SenderThread:4020 [sender.py:send():182] send: run
+2021-11-09 15:21:40,570 INFO    SenderThread:4020 [sender.py:send_run():637] updated run: 2saxvkob
+2021-11-09 15:21:40,571 DEBUG   SenderThread:4020 [sender.py:send():182] send: config
+2021-11-09 15:21:40,674 INFO    Thread-17 :4020 [upload_job.py:push():137] Uploaded file C:\Users\Alex\AppData\Local\Temp\tmpb9j668mzwandb\3ome38ik-wandb-metadata.json
+2021-11-09 15:21:40,734 DEBUG   SenderThread:4020 [sender.py:send():182] send: telemetry
+2021-11-09 15:21:40,735 DEBUG   SenderThread:4020 [sender.py:send():182] send: exit
+2021-11-09 15:21:40,735 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-09 15:21:40,735 INFO    SenderThread:4020 [sender.py:send_exit():291] handling exit code: 1
+2021-11-09 15:21:40,736 INFO    SenderThread:4020 [sender.py:send_exit():293] handling runtime: 4
+2021-11-09 15:21:40,736 INFO    SenderThread:4020 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-09 15:21:40,736 INFO    SenderThread:4020 [sender.py:send_exit():303] send defer
+2021-11-09 15:21:40,737 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: poll_exit
+2021-11-09 15:21:40,737 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: defer
+2021-11-09 15:21:40,737 INFO    HandlerThread:4020 [handler.py:handle_request_defer():143] handle defer: 0
+2021-11-09 15:21:40,737 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: defer
+2021-11-09 15:21:40,737 INFO    SenderThread:4020 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-11-09 15:21:40,737 INFO    SenderThread:4020 [sender.py:transition_state():316] send defer: 1
+2021-11-09 15:21:40,738 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: defer
+2021-11-09 15:21:40,738 INFO    HandlerThread:4020 [handler.py:handle_request_defer():143] handle defer: 1
+2021-11-09 15:21:40,784 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: defer
+2021-11-09 15:21:40,784 INFO    SenderThread:4020 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-11-09 15:21:40,785 INFO    SenderThread:4020 [sender.py:transition_state():316] send defer: 2
+2021-11-09 15:21:40,785 DEBUG   SenderThread:4020 [sender.py:send():182] send: stats
+2021-11-09 15:21:40,786 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: defer
+2021-11-09 15:21:40,786 INFO    HandlerThread:4020 [handler.py:handle_request_defer():143] handle defer: 2
+2021-11-09 15:21:40,786 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: defer
+2021-11-09 15:21:40,786 INFO    SenderThread:4020 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-11-09 15:21:40,786 INFO    SenderThread:4020 [sender.py:transition_state():316] send defer: 3
+2021-11-09 15:21:40,787 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: defer
+2021-11-09 15:21:40,787 INFO    HandlerThread:4020 [handler.py:handle_request_defer():143] handle defer: 3
+2021-11-09 15:21:40,787 DEBUG   SenderThread:4020 [sender.py:send():182] send: summary
+2021-11-09 15:21:40,787 INFO    SenderThread:4020 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-09 15:21:40,788 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: defer
+2021-11-09 15:21:40,788 INFO    SenderThread:4020 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-11-09 15:21:40,788 INFO    SenderThread:4020 [sender.py:transition_state():316] send defer: 4
+2021-11-09 15:21:40,788 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: defer
+2021-11-09 15:21:40,788 INFO    HandlerThread:4020 [handler.py:handle_request_defer():143] handle defer: 4
+2021-11-09 15:21:40,788 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: defer
+2021-11-09 15:21:40,788 INFO    SenderThread:4020 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-11-09 15:21:40,839 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-09 15:21:40,947 INFO    SenderThread:4020 [sender.py:transition_state():316] send defer: 5
+2021-11-09 15:21:40,947 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: poll_exit
+2021-11-09 15:21:40,948 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: defer
+2021-11-09 15:21:40,948 INFO    HandlerThread:4020 [handler.py:handle_request_defer():143] handle defer: 5
+2021-11-09 15:21:40,948 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: defer
+2021-11-09 15:21:40,948 INFO    SenderThread:4020 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-11-09 15:21:40,948 INFO    SenderThread:4020 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-11-09 15:21:40,996 INFO    SenderThread:4020 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\conda-environment.yaml
+2021-11-09 15:21:40,996 INFO    SenderThread:4020 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\wandb-summary.json
+2021-11-09 15:21:40,997 INFO    SenderThread:4020 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\config.yaml
+2021-11-09 15:21:40,997 INFO    SenderThread:4020 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\output.log
+2021-11-09 15:21:40,997 INFO    SenderThread:4020 [dir_watcher.py:_on_file_created():217] file/dir created: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\wandb-metadata.json
+2021-11-09 15:21:40,997 INFO    SenderThread:4020 [dir_watcher.py:finish():313] scan: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files
+2021-11-09 15:21:40,998 INFO    SenderThread:4020 [dir_watcher.py:finish():327] scan save: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\conda-environment.yaml conda-environment.yaml
+2021-11-09 15:21:40,998 INFO    SenderThread:4020 [dir_watcher.py:finish():327] scan save: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\config.yaml config.yaml
+2021-11-09 15:21:40,998 INFO    SenderThread:4020 [dir_watcher.py:finish():327] scan save: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\output.log output.log
+2021-11-09 15:21:41,001 INFO    SenderThread:4020 [dir_watcher.py:finish():327] scan save: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\requirements.txt requirements.txt
+2021-11-09 15:21:41,006 INFO    SenderThread:4020 [dir_watcher.py:finish():327] scan save: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\wandb-metadata.json wandb-metadata.json
+2021-11-09 15:21:41,006 INFO    SenderThread:4020 [dir_watcher.py:finish():327] scan save: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\wandb-summary.json wandb-summary.json
+2021-11-09 15:21:41,007 INFO    SenderThread:4020 [sender.py:transition_state():316] send defer: 6
+2021-11-09 15:21:41,013 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: defer
+2021-11-09 15:21:41,013 INFO    HandlerThread:4020 [handler.py:handle_request_defer():143] handle defer: 6
+2021-11-09 15:21:41,013 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: defer
+2021-11-09 15:21:41,013 INFO    SenderThread:4020 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-11-09 15:21:41,013 INFO    SenderThread:4020 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-09 15:21:41,059 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-09 15:21:41,059 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: poll_exit
+2021-11-09 15:21:41,167 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-09 15:21:41,167 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: poll_exit
+2021-11-09 15:21:41,276 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-09 15:21:41,276 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: poll_exit
+2021-11-09 15:21:41,388 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-09 15:21:41,389 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: poll_exit
+2021-11-09 15:21:41,397 INFO    Thread-22 :4020 [upload_job.py:push():137] Uploaded file D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\wandb-summary.json
+2021-11-09 15:21:41,414 INFO    Thread-18 :4020 [upload_job.py:push():137] Uploaded file D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\conda-environment.yaml
+2021-11-09 15:21:41,416 INFO    Thread-19 :4020 [upload_job.py:push():137] Uploaded file D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\config.yaml
+2021-11-09 15:21:41,417 INFO    Thread-20 :4020 [upload_job.py:push():137] Uploaded file D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\output.log
+2021-11-09 15:21:41,473 INFO    Thread-21 :4020 [upload_job.py:push():137] Uploaded file D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\files\requirements.txt
+2021-11-09 15:21:41,499 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-09 15:21:41,500 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: poll_exit
+2021-11-09 15:21:41,610 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-09 15:21:41,610 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: poll_exit
+2021-11-09 15:21:41,674 INFO    Thread-11 :4020 [sender.py:transition_state():316] send defer: 7
+2021-11-09 15:21:41,674 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: defer
+2021-11-09 15:21:41,674 INFO    HandlerThread:4020 [handler.py:handle_request_defer():143] handle defer: 7
+2021-11-09 15:21:41,674 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: defer
+2021-11-09 15:21:41,674 INFO    SenderThread:4020 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-11-09 15:21:41,722 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-09 15:21:41,853 INFO    SenderThread:4020 [sender.py:transition_state():316] send defer: 8
+2021-11-09 15:21:41,853 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: poll_exit
+2021-11-09 15:21:41,854 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: defer
+2021-11-09 15:21:41,854 INFO    HandlerThread:4020 [handler.py:handle_request_defer():143] handle defer: 8
+2021-11-09 15:21:41,854 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: defer
+2021-11-09 15:21:41,854 INFO    SenderThread:4020 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-11-09 15:21:41,854 INFO    SenderThread:4020 [sender.py:transition_state():316] send defer: 9
+2021-11-09 15:21:41,855 DEBUG   SenderThread:4020 [sender.py:send():182] send: final
+2021-11-09 15:21:41,855 DEBUG   SenderThread:4020 [sender.py:send():182] send: footer
+2021-11-09 15:21:41,855 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: defer
+2021-11-09 15:21:41,855 INFO    HandlerThread:4020 [handler.py:handle_request_defer():143] handle defer: 9
+2021-11-09 15:21:41,856 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: defer
+2021-11-09 15:21:41,856 INFO    SenderThread:4020 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-11-09 15:21:41,958 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-09 15:21:41,959 DEBUG   SenderThread:4020 [sender.py:send_request():196] send_request: poll_exit
+2021-11-09 15:21:41,959 INFO    SenderThread:4020 [file_pusher.py:join():182] waiting for file pusher
+2021-11-09 15:21:41,961 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: get_summary
+2021-11-09 15:21:41,962 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: sampled_history
+2021-11-09 15:21:41,962 DEBUG   HandlerThread:4020 [handler.py:handle_request():126] handle_request: shutdown
+2021-11-09 15:21:41,962 INFO    HandlerThread:4020 [handler.py:finish():683] shutting down handler
+2021-11-09 15:21:42,869 INFO    WriterThread:4020 [datastore.py:close():281] close: D:\Users\Alex\Fichiers\Programmation\Recherche - Gabriel\scikit-learn\wandb\run-20211109_152134-2saxvkob\run-2saxvkob.wandb
+2021-11-09 15:21:42,964 INFO    SenderThread:4020 [sender.py:finish():979] shutting down sender
+2021-11-09 15:21:42,964 INFO    SenderThread:4020 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-09 15:21:42,964 INFO    SenderThread:4020 [file_pusher.py:join():182] waiting for file pusher
+2021-11-09 15:21:42,966 INFO    MainThread:4020 [internal.py:handle_exit():76] Internal process exited
